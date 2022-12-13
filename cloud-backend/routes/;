@@ -1,0 +1,41 @@
+var express = require('express');
+var router = express.Router();
+app = express();
+var users = [
+  {
+    firstname: 'firstname',
+    lastname: 'lastname',
+    email:'abc@gmail.com',
+    company:'company',
+    query: 'query',
+
+  }
+]
+
+router.post('/',function(req,res,next){
+  let result = res;
+//  req.send("hello");
+  console.log(req.body);
+  if(result){
+    if(result.email!='' && result.query!='' && result.firstname!='' && result.lastname!='' && result.company!=''){
+     res.status(200).send({
+      message: "The query is sucessfully taken",
+      message: "hello"
+    })
+  }
+  else{
+    res.status(200).send({
+      message:"Enter all the feilds correctly"
+    })
+  }
+  }
+  else{
+    res.status(200).send({
+      message:"please enter the details again",
+	message: result
+    })
+ }
+	next();
+});
+
+module.exports = router;

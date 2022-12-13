@@ -1,0 +1,13 @@
+npx express-generator --view=ejs cloud-back
+
+PORT=8080 DEBUG=cloud-back:* npm start
+
+gsutil mb gs://kubernetes-cluster-dev/
+
+export KOPS_STATE_STORE=gs://kubernetes-cluster-dev/
+
+kops create cluster simple.k8s.local --zones us-centrall-c --state ${KOPS_STATE_STORE}/ --project=${PROJECT}
+
+kops get cluster --state ${KOPS_STATE_STORE}
+
+kops get cluster --state $(KOPS_STATE_STORE}/ simple.k8s.local -oyaml
