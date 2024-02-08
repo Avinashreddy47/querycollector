@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/avinash_portfolios/static/css/main.3b227ed3.chunk.css",
+    "main.js": "/avinash_portfolios/static/js/main.5bf237df.chunk.js",
+    "main.js.map": "/avinash_portfolios/static/js/main.5bf237df.chunk.js.map",
+    "runtime-main.js": "/avinash_portfolios/static/js/runtime-main.d268c23c.js",
+    "runtime-main.js.map": "/avinash_portfolios/static/js/runtime-main.d268c23c.js.map",
+    "static/css/2.01d557b6.chunk.css": "/avinash_portfolios/static/css/2.01d557b6.chunk.css",
+    "static/js/2.d02f73f8.chunk.js": "/avinash_portfolios/static/js/2.d02f73f8.chunk.js",
+    "static/js/2.d02f73f8.chunk.js.map": "/avinash_portfolios/static/js/2.d02f73f8.chunk.js.map",
+    "index.html": "/avinash_portfolios/index.html",
+    "precache-manifest.9443f839e5b90134ad4cf34dd5cf51df.js": "/avinash_portfolios/precache-manifest.9443f839e5b90134ad4cf34dd5cf51df.js",
+    "service-worker.js": "/avinash_portfolios/service-worker.js",
+    "static/css/2.01d557b6.chunk.css.map": "/avinash_portfolios/static/css/2.01d557b6.chunk.css.map",
+    "static/css/main.3b227ed3.chunk.css.map": "/avinash_portfolios/static/css/main.3b227ed3.chunk.css.map",
+    "static/js/2.d02f73f8.chunk.js.LICENSE.txt": "/avinash_portfolios/static/js/2.d02f73f8.chunk.js.LICENSE.txt",
+    "static/media/earth.jpg": "/avinash_portfolios/static/media/earth.67af05e1.jpg",
+    "static/media/font-awesome.css": "/avinash_portfolios/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/image4.jpg": "/avinash_portfolios/static/media/image4.0b37f434.jpg",
+    "static/media/image5.jpg": "/avinash_portfolios/static/media/image5.8d16c4af.jpg",
+    "static/media/image6.jpg": "/avinash_portfolios/static/media/image6.62b7cc75.jpg",
+    "static/media/img.jpg": "/avinash_portfolios/static/media/img.d62c314a.jpg",
+    "static/media/ionicons.css": "/avinash_portfolios/static/media/ionicons.621bd386.svg",
+    "static/media/male.png": "/avinash_portfolios/static/media/male.a82ab1cd.png",
+    "static/media/male1.png": "/avinash_portfolios/static/media/male1.3ec3891b.png",
+    "static/media/myImage.png": "/avinash_portfolios/static/media/myImage.bd80794f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d268c23c.js",
+    "static/css/2.01d557b6.chunk.css",
+    "static/js/2.d02f73f8.chunk.js",
+    "static/css/main.3b227ed3.chunk.css",
+    "static/js/main.5bf237df.chunk.js"
+  ]
+}
